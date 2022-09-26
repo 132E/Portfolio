@@ -13,13 +13,13 @@ import Adobe from '../assets/adobeCC.png';
 
 const Skills = () => {
     return (
-        <div name="skills" className="bg-[#0a192f]  text-gray-300 ">
+        <div name="skills" className="w-full h-screen bg-[#0a192f]  text-gray-300 ">
             
             {/* container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-[#fe0068]'>Experience</p>
-                    <p className='py-4'>// This is what I'm working with</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-[#fe0068]'>Skills</p>
+                    <p className='py-4'>//Some of my skills in the bag of tricks!</p>
                 </div>
 
                 <div className='w-full grid grid-cols-2 sm:grid-cols-5 gap-5 text-center py-10'>
