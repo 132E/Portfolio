@@ -28,7 +28,47 @@ const Work = () => {
                             <div className='pt-8 text-center'>
                                 
                                 <a href='https://www.htxtalent.com/'>
-                                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
+                                    <button className='text-center rounded-lg px-4 py-2 m-3 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
+                                </a>
+                                {/* <a href='/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a> */}
+
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{backgroundImage: `url(${ORDRS})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                Ordrs Landing Page
+                            </span>
+                            <p className='text-center py-2'>UX/UI Design</p>
+                            <div className='pt-8 text-center'>
+                                
+                                <a href='https://www.ordrs.io/'>
+                                    <button className='text-center rounded-lg px-4 py-2 m-3 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
+                                </a>
+                                {/* <a href='/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a> */}
+
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{backgroundImage: `url(${AUTO})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100'>
+                            <span className='text-2xl font-bold text-white tracking-wider'>
+                                HTX Talent Job Board
+                            </span>
+                            <p className='text-center py-2'>UX/UI Design</p>
+                            <div className='pt-8 text-center'>
+                                
+                                <a href='https://automedichouston.com/'>
+                                    <button className='text-center rounded-lg px-4 py-2 m-3 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
                                 </a>
                                 {/* <a href='/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
@@ -48,7 +88,7 @@ const Work = () => {
                             <div className='pt-8 text-center'>
                                 
                                 <a href='https://www.htxtalent.com/'>
-                                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
+                                    <button className='text-center rounded-lg px-4 py-2 m-3 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
                                 </a>
                                 {/* <a href='/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
@@ -68,7 +108,7 @@ const Work = () => {
                             <div className='pt-8 text-center'>
                                 
                                 <a href='https://www.htxtalent.com/'>
-                                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
+                                    <button className='text-center rounded-lg px-4 py-2 m-3 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
                                 </a>
                                 {/* <a href='/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
@@ -88,47 +128,7 @@ const Work = () => {
                             <div className='pt-8 text-center'>
                                 
                                 <a href='https://www.htxtalent.com/'>
-                                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
-                                </a>
-                                {/* <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a> */}
-
-                            </div>
-                        </div>
-                    </div>
-                    <div style={{backgroundImage: `url(${HTX})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                        {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                HTX Talent Job Board
-                            </span>
-                            <p className='text-center py-2'>UX/UI Design</p>
-                            <div className='pt-8 text-center'>
-                                
-                                <a href='https://www.htxtalent.com/'>
-                                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
-                                </a>
-                                {/* <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a> */}
-
-                            </div>
-                        </div>
-                    </div>
-                    <div style={{backgroundImage: `url(${HTX})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                        {/* Hover Effects */}
-                        <div className='opacity-0 group-hover:opacity-100'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
-                                HTX Talent Job Board
-                            </span>
-                            <p className='text-center py-2'>UX/UI Design</p>
-                            <div className='pt-8 text-center'>
-                                
-                                <a href='https://www.htxtalent.com/'>
-                                    <button className='text-center rounded-lg px-4 py-2 m-1 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
+                                    <button className='text-center rounded-lg px-4 py-2 m-3 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
                                 </a>
                                 {/* <a href='/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
