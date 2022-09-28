@@ -3,6 +3,7 @@ import HTX from '../assets/HTXTalent.png';
 import ORDRS from '../assets/Ordrs.png';
 import AUTO from '../assets/Automedic.png';
 import DIRECT from '../assets/DirectCare.png';
+import CYCLE from "../assets/CycleList.png";
 
 const Work = () => {
     return( 
@@ -15,7 +16,7 @@ const Work = () => {
 
                 {/* Container */}
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
+                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4 text-center'>
 
                     {/* Grid Item */}
                     <div style={{backgroundImage: `url(${HTX})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -98,22 +99,22 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
-                    <div style={{backgroundImage: `url(${HTX})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    <div style={{backgroundImage: `url(${CYCLE})`}} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                HTX Talent Job Board
+                            CycleList App
                             </span>
-                            <p className='text-center py-2'>UX/UI Design</p>
+                            <p className='text-center py-2'>P.E.R.N. App</p>
                             <div className='pt-8 text-center'>
                                 
-                                <a href='https://www.htxtalent.com/'>
+                                <a href='https://cyclelist.netlify.app/'>
                                     <button className='text-center rounded-lg px-4 py-2 m-3 bg-white text-gray-700 font-bold text-lg'>Visit Site</button>
                                 </a>
-                                {/* <a href='/'>
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                </a> */}
+                                <a href='https://github.com/frank-booth/CycleList_Frontend'>
+                                    <button className='text-center rounded-lg px-4 py-2 m-3 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                </a>
 
                             </div>
                         </div>
