@@ -15,36 +15,36 @@ const NavBar = () => {
     return(
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300 ">
             <div>
-                <Link to='home' smooth={true} duration={500}>
+                <Link to='home' smooth={true} duration={500} >
                     <img src={Logo} alt="Logo Image" style={{width: '50px'}} className="m-10" />
                 </Link>
             </div>
 
             {/* menu */}
             
-                <ul className='hidden md:flex m-10'>
+                <ul className='hidden md:flex m-10 '>
                     <li>
-                        <Link to="home" smooth={true} offset={50} duration={500} >
+                        <Link to="home" smooth={true} offset={50} duration={500} class="opacity-50 hover:opacity-100">
                             Home
                         </Link>
                     </li>
                     <li>
-                        <Link to="about" smooth={true} offset={50} duration={500} >
+                        <Link to="about" smooth={true} offset={50} duration={500} class="opacity-50 hover:opacity-100" >
                             About
                         </Link>
                     </li>
                     <li>
-                        <Link to="skills" smooth={true} offset={50} duration={500} >
+                        <Link to="skills" smooth={true} offset={50} duration={500} class="opacity-50 hover:opacity-100">
                             Skills
                         </Link>
                     </li>
                     <li>
-                        <Link to="work" smooth={true} offset={50} duration={500} >
+                        <Link to="work" smooth={true} offset={50} duration={500} class="opacity-50 hover:opacity-100">
                             Portfolio
                         </Link>
                     </li>
                     <li>
-                        <Link to="contact" smooth={true} offset={50} duration={500} >
+                        <Link to="contact" smooth={true} offset={50} duration={500} class="opacity-50 hover:opacity-100 focus:opacity-100">
                             Hit Me Up
                         </Link>
                     </li>
